@@ -1,0 +1,19 @@
+{
+  "name": "attenuate",
+  "version": "1.0.0",
+  "description": "general purpose attenuation functions (linear, quadratic, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreinstein/attenuate.git"
+  },
+  "author": "Mike Reinstein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mreinstein/attenuate/issues"
+  },
+  "homepage": "https://github.com/mreinstein/attenuate#readme"
+}
