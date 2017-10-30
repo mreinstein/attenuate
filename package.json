@@ -1,6 +1,6 @@
 {
   "name": "attenuate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "general purpose attenuation functions (linear, quadratic, etc.)",
   "main": "index.js",
   "scripts": {
