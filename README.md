@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mreinstein/attenuate.svg?branch=master)](https://travis-ci.org/mreinstein/attenuate)
+
 # attenuate
 general purpose attenuation functions (linear, quadratic, etc.)
 
