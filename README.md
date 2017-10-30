@@ -22,8 +22,12 @@ a light source, and don't want the light to have any contribution beyond a dista
 
 ### linear
 The decline of this type of falloff is linear, inversely proportial to the distance from the
-source (`I = 1/d` where `I` is intensity and `d` is distance). This means that the intensity
-// (set by its magnitude/brightness) will diminish (at a fixed rate) as it travels from its source.
+source:
+
+`I = 1/d`
+
+where `I` is intensity and `d` is distance). This means that the intensity
+(set by its magnitude/brightness) will diminish (at a fixed rate) as it travels from its source.
 
 In the real world a 100% linear lightsource would be practically impossible, as it would represent
 a real world soft light of infinite size, but in the virtual world, a 0:1:0 lightsource is
@@ -33,7 +37,10 @@ believable for most entity based lightsources.
 
 
 ### quadratic
-The attenuation of a 100% quadratic light is exponential (quadratic), expressed as "I = 1/d^2",
+The attenuation of a 100% quadratic light is exponential (quadratic), expressed as:
+
+`I = 1/d^2`
+
 meaning that the further the light travels from its source, the more it will be diminished.
 This creates a very sharp drop in light.
 
