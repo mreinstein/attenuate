@@ -1,4 +1,6 @@
 # attenuate
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mreinstein/attenuate.svg)](https://greenkeeper.io/)
 general purpose attenuation functions (linear, quadratic, etc.)
 
 ## api
