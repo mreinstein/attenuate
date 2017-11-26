@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mreinstein/attenuate#readme",
   "devDependencies": {
-    "tap": "^10.7.2"
+    "tap": "^11.0.0"
   }
 }
