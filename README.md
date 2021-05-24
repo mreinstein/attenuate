@@ -1,5 +1,4 @@
 [![Build Status](https://travis-ci.org/mreinstein/attenuate.svg?branch=master)](https://travis-ci.org/mreinstein/attenuate)
-[![Greenkeeper badge](https://badges.greenkeeper.io/mreinstein/attenuate.svg)](https://greenkeeper.io/)
 
 # attenuate
 
