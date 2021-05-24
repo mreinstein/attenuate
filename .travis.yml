@@ -1,5 +1,5 @@
 os: linux
-distro: xenial
+dist: xenial
 language: node_js
 
 node_js:
