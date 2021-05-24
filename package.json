@@ -1,8 +1,9 @@
 {
   "name": "attenuate",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "general purpose attenuation functions (linear, quadratic, etc.)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "tap ./test"
   },
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/mreinstein/attenuate#readme",
   "devDependencies": {
-    "tap": "^11.1.1"
+    "tap": "^15.0.9"
+  },
+  "engines": {
+    "node": ">=12.17"
   }
 }

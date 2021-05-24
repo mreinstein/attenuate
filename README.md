@@ -58,7 +58,8 @@ also to reflect light travelling through something more dispersing than air, lik
 ## example
 
 ```javascript
-const linear = require('attenuate/linear')
+import { linear } from 'attenuate'
+
 
 const maxDistance = 1000
 console.log(linear(0, maxDistance))     // 1.0

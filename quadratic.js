@@ -1,5 +1,3 @@
-'use strict'
-
 // https://developer.valvesoftware.com/wiki/Constant-Linear-Quadratic_Falloff#Quadratic_Attenuation
 
 // the attenuation of a 100% quadratic light is exponential (quadratic), expressed as "I = 1/d^2",
@@ -14,8 +12,9 @@
 // also to reflect light travelling through something more dispersing than air, like air humidity
 // (like fog) or water.
 
-module.exports = function quadratic(distance, maxDistance) {
-  if (distance > maxDistance) return 0
+export default function quadratic (distance, maxDistance) {
+    if (distance > maxDistance)
+  	    return 0
 
-  return (distance < 0.01) ? 1 : (1 / (distance * distance))
+    return (distance < 0.01) ? 1 : (1 / (distance * distance))
 }

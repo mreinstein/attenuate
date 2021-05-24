@@ -1,4 +1,5 @@
-'use strict'
+import quadratic from './quadratic.js'
+import linear    from './linear.js'
 
-module.exports.quadratic = require('./quadratic')
-module.exports.linear = require('./linear')
+
+export { quadratic, linear }
