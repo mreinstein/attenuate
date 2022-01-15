@@ -1,6 +1,7 @@
-[![Build Status](https://travis-ci.org/mreinstein/attenuate.svg?branch=master)](https://travis-ci.org/mreinstein/attenuate)
-
 # attenuate
+
+![tests](https://github.com/mreinstein/attenuate/actions/workflows/main.yml/badge.svg)
+
 
 general purpose attenuation functions (linear, quadratic, etc.)
 
